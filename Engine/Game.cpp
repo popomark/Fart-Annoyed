@@ -30,7 +30,7 @@ Game::Game(MainWindow& wnd)
 	soundPad(L"Sounds\\arkpad.wav"),
 	soundBrick(L"Sounds\\arkbrick.wav"),
 	brick(RectF(450.0f, 550.0f, 485.0f, 515.0f), Colors::Red),
-	pad(Vec2(400.0f,500.0f), 100.0f,30.0f)
+	pad(Vec2(400.0f,500.0f), 50.0f,15.0f)
 {
 }
 
